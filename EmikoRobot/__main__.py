@@ -81,13 +81,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
-────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-────────────────────────
-✪ Hit /help to see my available commands.
+Hey There, I'm [Lugia](https://telegra.ph/file/f82132e4e89b4267ca4d8.jpg)
+*hello! {},*
+*I am an Anime themed advance group management bot with a lot of New Features.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+♆ *Uptime:* `{}`
+♆ `{}` *users, across* `{}` *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+☫ Checkout The Help Buttons To Check My Abilities 𖤐𖤐
 """
 
 buttons = [
@@ -102,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Emiko To Your Group ➗", url="t.me/EmiexRobot?startgroup=new"),
+            text="➗ Add Lugia To Your Group ➗", url="t.me/EmiexRobot?startgroup=new"),
     ],
 ]
 
